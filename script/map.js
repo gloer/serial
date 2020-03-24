@@ -78,7 +78,13 @@ const lesMap = async () => {
     list.innerHTML = ``;
 
     // Get json file
-    const jsonres = await fetch(jsonfil);
+    const jsonres = await fetch(jsonfil, {
+        headers : { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+         }
+  
+      });
     const json = await jsonres.json();
 
     //zoom and center

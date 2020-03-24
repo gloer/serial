@@ -24,7 +24,7 @@ btnzodiac.onclick = (evt) => {
         mark.remove();
     }
 
-    jsonfil = "../json/zodiac.json";
+    jsonfil = "./../json/zodiac.json";
     lesMap();
 }
 btnted.onclick = (evt) => {
@@ -34,7 +34,7 @@ btnted.onclick = (evt) => {
         mark.remove();
     }
 
-    jsonfil = "../json/ted.json";
+    jsonfil = "./../json/ted.json";
     lesMap();
 }
 btnmanson.onclick = (evt) => {
@@ -44,7 +44,7 @@ btnmanson.onclick = (evt) => {
         mark.remove();
     }
 
-    jsonfil = "../json/manson.json";
+    jsonfil = "./../json/manson.json";
     lesMap();
 }
 btnmiyazaki.onclick = (evt) => {
@@ -54,7 +54,7 @@ btnmiyazaki.onclick = (evt) => {
         mark.remove();
     }
 
-    jsonfil = "../json/miyazaki.json";
+    jsonfil = "./../json/miyazaki.json";
     lesMap();
 }
 btnramirez.onclick = (evt) => {
@@ -64,7 +64,7 @@ btnramirez.onclick = (evt) => {
         mark.remove();
     }
 
-    jsonfil = "../json/ramirez.json";
+    jsonfil = "./../json/ramirez.json";
     lesMap();
 }
 

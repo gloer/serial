@@ -24,7 +24,7 @@ btnzodiac.onclick = (evt) => {
         mark.remove();
     }
 
-    jsonfil = "./json/zodiac.json";
+    jsonfil = "https://gloer.github.io/serial/json/zodiac.json";
     lesMap();
 }
 btnted.onclick = (evt) => {
@@ -44,7 +44,7 @@ btnmanson.onclick = (evt) => {
         mark.remove();
     }
 
-    jsonfil = "./json/manson.json";
+    jsonfil = "https://gloer.github.io/serial/json/manson.json";
     lesMap();
 }
 btnmiyazaki.onclick = (evt) => {
@@ -54,7 +54,7 @@ btnmiyazaki.onclick = (evt) => {
         mark.remove();
     }
 
-    jsonfil = "./json/miyazaki.json";
+    jsonfil = "https://gloer.github.io/serial/json/miyazaki.json";
     lesMap();
 }
 btnramirez.onclick = (evt) => {
@@ -69,7 +69,7 @@ btnramirez.onclick = (evt) => {
 }
 
 // Default json file
-let jsonfil = "./json/ted.json";
+let jsonfil = "https://gloer.github.io/serial/json/ted.json";
 
 //JSON info
 const lesMap = async () => {
